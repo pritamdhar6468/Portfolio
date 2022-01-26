@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY NEW WEBSITE</title>
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">STUDY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <!--<li><a href="">RELATION</a></li>-->
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>PORTFOLIO</h1>
+    <p>Hey there,I am Pritam Dhar Computer Science Student
+        </p>
+        <a href="" class="hero-btn">more enquiry visit this</a>
+</div>
+
+    </section>
+   
+      <!----study------->
+      <section class="study">
+          <h1>StudyMaterial</h1>
+          <p>Data Structure,OrganiSational Behavior,Operating System and many more are Present in There</p>
+
+        <div class="row">
+            <div class=study-col>
+                <h3>DATA STRUCTURE</h3>
+                <p>LLinear search,Binary search,Divide and conquer method<br>merge sort,quick sort,minimum spanning tree etc. </p>
+            </div>
+            
+            <div class=study-col>
+                <h3>OPERATING SYSTEM</h3>
+                <p>OS,Kernel,types of OS,batch os,realtime os<br>windows os,design of os,architecture of os ,programms on os etc.</p>
+            </div>
+            <div class=study-col>
+                <h3>ALGORITHM DESIGN AND ANALYSIS</h3>
+                <p>Algorithm,Time complexity,Space complexity,big O,Theta and omega notation<br>knapsack problem,branch and bound,backtracking etc.</p>
+            </div>
+           <!-- <div class=study-col>
+                <h3>COMPUTER ARCHITECTURE AND ORGANISATION</h3>
+                <p>Input Output system,processor,RAM,BIOS,OS,KERNEL,number system etc..</p>
+            </div>-->
+            <div class=study-col>
+                <h3>FLAT</h3>
+                <p>Chomskey heirarkey theory,context free language,context sensitve language<br>regular language,finite automata,DFA,NFA etc.</p>
+            </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="vision">
+          <h1>PROJECTS</h1>
+         <!-- <p>Great software engineer,Enterpreneur,market consultant,motivator.</p>-->
+    
+          <div class="row">
+              <div class="vision-col">
+                  <img src="images/e-commerce-solutions-500x500.jpg">
+                  <div class="layer">
+                      <h3>E-COMMERCE SITE</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="vision-col">
+                <img src="images/nodejsbanner.jpg">
+            <div class="layer">
+                <h3>NODEJS PROJECT</h3>
+            </div>
+        </div>
+        
+      </section>
+
+      <!---------call to action------->
+
+      <section class="cts">
+          <h1>Pritam Dhar Email-pritamdhar6568@gmail.com mob-7750940166</h1>
+          <a href="" class="hero-btn">CONTACT ME</a>
+      </section>
+      
+        <!-----footer----->
+        <section class="footer">
+            <h4>About me</h4>
+            <p>lorem ipsum kotra bohetra  </p>
+            <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+           <!-- <p>Made with <i class="far fa-heart"></i> by Pritam Dhar</i></p>-->
+        </section>
+
+
+
+
+
+    <!-------javascript for toggle menu------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
